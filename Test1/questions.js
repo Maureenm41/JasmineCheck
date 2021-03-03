@@ -10,10 +10,9 @@ let concatString = (texte1, texte2) => {
 
     let p1 = "Le javascript est "
     let p2 = "super"
-    let str 
-    str = p1 + p2
+    let str = p1 + p2
 
-    console.log(str)
+    return str
 
 }
 let afficherCar5 =  (texte) => {
