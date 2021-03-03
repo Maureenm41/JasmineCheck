@@ -3,7 +3,7 @@ let selectElementsStartingWithA = (array) => {
     const fruits = ['bananas', 'apples', 'pears', 'avocados']
     const startWithA = fruits.filter((fruits) => fruits.startsWith("a"));
 
-    return console.log(startWithA)
+    return startWithA
 }
     const fruits = ['bananas', 'apples', 'pears', 'avocados'];
     const startWithA = fruits.filter((fruits) => fruits.startsWith("a"));
