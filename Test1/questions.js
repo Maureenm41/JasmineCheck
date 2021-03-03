@@ -16,6 +16,10 @@ let concatString = (texte1, texte2) => {
 
 }
 let afficherCar5 =  (texte) => {
+    let afficherCar5 = "Ces exercices sont supers!";
+    let car5 = afficherCar5.slice(5);
+    console.log(afficherCar5.slice(5))
+    return car5
 
 }
 let afficher9Car =  (texte) => {
