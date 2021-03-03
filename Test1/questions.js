@@ -8,12 +8,12 @@ let remplaceECar = (texte) => {
 }
 let concatString = (texte1, texte2) => {
 
-        var str1 = "Le javascript est ";
-        var str2 = "super";
-        var res = str1.concat(str2);
+    let p1 = "Le javascript est "
+    let p2 = "super"
+    let str 
+    str = p1 + p2
 
-        document.getElementById("concat").innerHTML = res;
-        console.log(res);
+    console.log(str)
 
 }
 let afficherCar5 =  (texte) => {
