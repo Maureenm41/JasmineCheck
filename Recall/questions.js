@@ -1,6 +1,13 @@
 let selectElementsStartingWithA = (array) => {
-    return 'Write your method here';
+    
+    const fruits = ['bananas', 'apples', 'pears', 'avocados']
+    const startWithA = fruits.filter((fruits) => fruits.startsWith("a"));
+
+    return console.log(startWithA)
 }
+    const fruits = ['bananas', 'apples', 'pears', 'avocados'];
+    const startWithA = fruits.filter((fruits) => fruits.startsWith("a"));
+    console.log(startWithA)
 
 let selectElementsStartingWithVowel = (array) => {
     return 'Write your method here';
