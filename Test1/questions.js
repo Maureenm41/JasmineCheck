@@ -30,9 +30,17 @@ let afficher9Car =  (texte) => {
 
 }
 let majusculeString =  (texte) => {
+    let majusculeString = "Un autre excellent exercie";
+    let maj = majusculeString.toUpperCase();
+    console.log(maj)
+    return maj
 
 }
 let minusculeString =  (texte) => {
+    let minusculeString = "Celui ci aussi!"
+    let minString = minusculeString.toLowerCase();
+    console.log(minString)
+    return minString
 
 }
 let SupprEspaceString =  (texte) => {
