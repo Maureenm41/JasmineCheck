@@ -51,10 +51,22 @@ let SupprEspaceString =  (texte) => {
 
 }
 let IsString =  (texte) => {
+    let IsString = "Est ce une chaine de caractères ?"
+    if(typeof IsString === 'string')
+{
+    console.log('Variable is a string');
+}
+else
+{
+    console.log('Variable is not a string');
+}
+    return 
 
 }
 
+
 let AfficherExtensionString =  (texte) => {
+    let AfficherExtensionString
 
 }
 let NombreEspaceString =  (texte) => {
