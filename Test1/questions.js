@@ -17,12 +17,16 @@ let concatString = (texte1, texte2) => {
 }
 let afficherCar5 =  (texte) => {
     let afficherCar5 = "Ces exercices sont supers!";
-    let car5 = afficherCar5.slice(5);
-    console.log(afficherCar5.slice(5))
-    return car5
+    let car5 = afficherCar5.charAt(4);
+    console.log(afficherCar5.charAt(4))
+    return car5.charAt(4)
 
 }
 let afficher9Car =  (texte) => {
+    let afficher9Car = "Je dirais même qu'ils sont excellents";
+    let Car9 = afficher9Car.slice(0,9)
+    console.log(afficher9Car.slice(0.9))
+    return Car9 
 
 }
 let majusculeString =  (texte) => {
