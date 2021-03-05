@@ -44,6 +44,10 @@ let minusculeString =  (texte) => {
 
 }
 let SupprEspaceString =  (texte) => {
+    let SupprEspaceString = "Rome ne s\'est pas construite en un jour";
+    let delSpaceString = SupprEspaceString.split(" ").join("")
+    console.log(delSpaceString)
+    return delSpaceString
 
 }
 let IsString =  (texte) => {
